@@ -143,6 +143,37 @@ void pattern10(int n){
         
     }
 }
+
+void pattern11(int n){
+    for(int i = 1; i < n+1; i++){
+        for (int j = i; j > 0; j--){
+            if (j%2 == 0){
+                cout << 0;
+            }
+            else{
+                cout << 1;
+            }
+        }
+        cout << endl;
+    }
+}
+
+void pattern12(int n){
+ 
+    for(int i = 1; i < n+1; i++){
+        for (int j = 1; j < i+1; j++ ){
+            cout << j;
+        }
+        for (int j = 0; j < 2*(n - i); j++ ){
+            cout << " ";
+        }
+        for (int j = i; j > 0; j-- ){
+            cout << j;
+        }
+        cout << endl;
+    }
+
+}
 int main(){
 
     //pattern1(5);
@@ -154,7 +185,8 @@ int main(){
     //pattern7(5);
     //pattern8(5);
     //pattern9(5);
-    pattern10(5);
-
+    //pattern10(5);
+    //pattern11(5);
+    pattern12(9);
     return 0;
 }
