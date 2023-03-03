@@ -212,6 +212,20 @@ void pattern15(int n){
 
 }
 
+
+void pattern16(int n){
+    char k = 'A';
+    for(int i = 0; i < n; i++){
+        for(char j = 'A'; j <= 'A' + i; j++){
+
+            cout << k  << " ";
+
+        }
+        k++;
+        cout << endl;
+    }
+
+}
 int main(){
 
     //pattern1(5);
@@ -227,6 +241,7 @@ int main(){
     //pattern11(5);
     //pattern12(9);
     //pattern13(5);
-    pattern15(5);
+    //pattern15(5);
+    pattern16(5);
     return 0;
 }
