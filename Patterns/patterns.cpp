@@ -174,6 +174,18 @@ void pattern12(int n){
     }
 
 }
+
+void pattern13(int n){
+    int val = 1;
+    for(int i = 1; i < n+1; i++){
+        for(int j = 1; j < i+1; j++){
+            cout << val << " ";
+            val++;
+        }
+        cout << endl;
+    }
+
+}
 int main(){
 
     //pattern1(5);
@@ -187,6 +199,7 @@ int main(){
     //pattern9(5);
     //pattern10(5);
     //pattern11(5);
-    pattern12(9);
+    //pattern12(9);
+    pattern13(5);
     return 0;
 }
