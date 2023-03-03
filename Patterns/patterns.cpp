@@ -199,6 +199,19 @@ void pattern14(int n){
 
 }
 
+
+void pattern15(int n){
+
+    for(int i = n; i > 0; i--){
+        for(char j = 'A'; j < 'A' + i; j++){
+            cout << j << " ";
+
+        }
+        cout << endl;
+    }
+
+}
+
 int main(){
 
     //pattern1(5);
@@ -214,6 +227,6 @@ int main(){
     //pattern11(5);
     //pattern12(9);
     //pattern13(5);
-    pattern14(5);
+    pattern15(5);
     return 0;
 }
