@@ -226,6 +226,33 @@ void pattern16(int n){
     }
 
 }
+
+void pattern17(int n){
+    char v  = 'A';
+    
+    for(int i = 0; i<n ; i++){
+        int x = 1;
+        for(int k = 0 ; k< n-i+1; k++){
+            cout << " ";
+        }
+        for(int k = 1 ; k< 2*i ; k++){
+            cout << x ;
+            x++;
+            // if (k < (2*i)/2){
+            //     cout << v;
+            //     v++;
+            // }
+            // else{
+            //     cout << v;
+            //     v--;
+            // }
+        }
+        for(int k = 0 ; k< n-i+1; k++){
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
 int main(){
 
     //pattern1(5);
@@ -242,6 +269,7 @@ int main(){
     //pattern12(9);
     //pattern13(5);
     //pattern15(5);
-    pattern16(5);
+    //pattern16(5);
+    pattern17(4);
     return 0;
 }
