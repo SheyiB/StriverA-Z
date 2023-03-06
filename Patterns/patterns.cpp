@@ -227,17 +227,22 @@ void pattern16(int n){
 
 }
 
-void pattern17(int n){
-    char v  = 'A';
-    
-    for(int i = 0; i<n ; i++){
-        int x = 1;
+void pattern17(int n){    
+    for(int i = 1; i<n+1 ; i++){
+        char x = 'A';
         for(int k = 0 ; k< n-i+1; k++){
             cout << " ";
         }
         for(int k = 1 ; k< 2*i ; k++){
-            cout << x ;
-            x++;
+            if (k < i ){
+                cout << x ;
+                x++;
+            }   
+            else{
+                cout << x;
+                x--;
+            }
+            
             // if (k < (2*i)/2){
             //     cout << v;
             //     v++;
