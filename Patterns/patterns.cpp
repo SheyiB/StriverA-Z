@@ -242,15 +242,7 @@ void pattern17(int n){
                 cout << x;
                 x--;
             }
-            
-            // if (k < (2*i)/2){
-            //     cout << v;
-            //     v++;
-            // }
-            // else{
-            //     cout << v;
-            //     v--;
-            // }
+         
         }
         for(int k = 0 ; k< n-i+1; k++){
             cout << " ";
