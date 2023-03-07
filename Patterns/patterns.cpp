@@ -250,6 +250,22 @@ void pattern17(int n){
         cout << endl;
     }
 }
+
+
+void pattern18(int n){
+    
+    for(int i = 0; i < n; i++){
+    char k = 'E';
+        for(int j = i; j >  -1; j--){
+            char x = k - j;
+            cout << x  << " ";
+            
+        }
+        ;
+        cout << endl;
+    }
+
+}
 int main(){
 
     //pattern1(5);
@@ -267,6 +283,7 @@ int main(){
     //pattern13(5);
     //pattern15(5);
     //pattern16(5);
-    pattern17(4);
+    //pattern17(4);
+    pattern18(5);
     return 0;
 }
