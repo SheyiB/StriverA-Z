@@ -295,6 +295,37 @@ void pattern19(int n){
     }
 
 }
+
+
+void pattern20(int n){
+
+    for(int i = n-1; i > -1 ; i--){
+        for (int j = 0; j < n-i; j++){
+            cout << "*";
+        }
+        for (int j = 0; j < i*2; j++){
+            cout << " ";
+        }
+        for (int j = 0; j < n-i; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+    for(int i = 1; i < n ; i++){
+        for (int j = 0; j < n-i; j++){
+            cout << "*";
+        }
+        for (int j = 0; j < i*2; j++){
+            cout << " ";
+        }
+        for (int j = 0; j < n-i; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+}
 int main(){
 
     //pattern1(5);
@@ -314,6 +345,7 @@ int main(){
     //pattern16(5);
     //pattern17(4);
     //pattern18(5);
-    pattern19(5);
+    //pattern19(5);
+    pattern20(5);
     return 0;
 }
