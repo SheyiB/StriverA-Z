@@ -347,6 +347,22 @@ void pattern21(int n){
     }
     cout << endl;
 }
+
+void pattern22(int n){
+    for(int i = 0; i< 2*n-1; i++){
+        for (int j = 0; j < 2*n-1; j++){
+            int top = i;
+            int bottom = (2*n-2)-i ;
+            int left = j;
+            int right = (2*n-2) -j;
+
+            cout << n - min(bottom, min(top, min( left, right))) ;
+
+        }
+        cout << endl;
+    }
+
+}
 int main(){
 
     //pattern1(5);
@@ -368,6 +384,7 @@ int main(){
     //pattern18(5);
     //pattern19(5);
     //pattern20(5);
-    pattern21(2);
+    //pattern21(5);
+    pattern22(5);
     return 0;
 }
