@@ -328,24 +328,36 @@ void pattern20(int n){
 }
 
 void pattern21(int n){
-    for(int i = 0; i < n; i++){
-        cout << "*";
-    }
-    cout << endl;
+    // for(int i = 0; i < n; i++){
+    //     cout << "*";
+    // }
+    // cout << endl;
 
-    for(int i = 0; i < n-2; i++){
-        cout << "*";
-        for(int x = 0; x < n-2; x++  ){
-            cout<< " ";
-        }
-        cout << "*";
-        cout << endl;    
-    }
+    // for(int i = 0; i < n-2; i++){
+    //     cout << "*";
+    //     for(int x = 0; x < n-2; x++  ){
+    //         cout<< " ";
+    //     }
+    //     cout << "*";
+    //     cout << endl;    
+    // }
     
-    for(int i = 0; i < n; i++){
-        cout << "*";
-    }
+    // for(int i = 0; i < n; i++){
+    //     cout << "*";
+    // }
+    // cout << endl;
+    for (int i = 0; i< n; i++){
+        for (int j= 0; j < n; j++){
+            if (i == 0|| j == 0 || i == n-1 || j == n-1){
+                cout << "*";
+            }
+            else{
+                cout<< " ";
+            }
+        
+        }
     cout << endl;
+    }
 }
 
 void pattern22(int n){
@@ -364,6 +376,8 @@ void pattern22(int n){
 
 }
 int main(){
+
+
 
     //pattern1(5);
     //pattern2(5);
@@ -384,7 +398,9 @@ int main(){
     //pattern18(5);
     //pattern19(5);
     //pattern20(5);
-    //pattern21(5);
-    pattern22(5);
+    pattern21(5);
+    //pattern22(5);
+  
+  
     return 0;
 }
