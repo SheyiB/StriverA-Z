@@ -356,7 +356,7 @@ void pattern22(int n){
             int left = j;
             int right = (2*n-2) -j;
 
-            cout << n - min(bottom, min(top, min( left, right))) ;
+            cout << n - min(bottom, min(top, min( left, right))) << " " ;
 
         }
         cout << endl;
