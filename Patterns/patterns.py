@@ -44,12 +44,12 @@ def pattern_six():
             print(x, end="")
         print(' ')
 
-print("*****7****")
-y = 5 
-for i in range(1,y+1):
-    spaces = y-i
-    stars = 2*i - 1  
-    print(" "*spaces+"*"*stars+" "*spaces)
+def pattern_seven():
+    y = 5 
+    for i in range(1,y+1):
+        spaces = y-i
+        stars = 2*i - 1  
+        print(" "*spaces+"*"*stars+" "*spaces)
     
 #User function Template for python3
 N = 5
