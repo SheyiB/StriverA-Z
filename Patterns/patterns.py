@@ -1,7 +1,7 @@
-"""
-print("****1****")
-for i in range(5):
-    print("*" * 5)
+def pattern_one():
+    print("****1****")
+    for i in range(5):
+        print("*" * 5)
 
 
 print("****2****")
