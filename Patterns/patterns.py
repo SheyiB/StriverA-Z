@@ -9,11 +9,12 @@ def pattern_two():
         k = int(i) + 1
         print("*" * k)
 
-print("****3.1****")
-num = []
-for i in range(5):
-    num.append(str(i+1))
-    print(''.join(num))
+def pattern_three():
+    num = []
+    for i in range(5):
+        num.append(str(i+1))
+        print(''.join(num))
+
 print("****3.2****")
 #User function Template for python3
 for i in range(5):
