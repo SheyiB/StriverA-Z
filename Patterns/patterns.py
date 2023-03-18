@@ -51,15 +51,16 @@ def pattern_seven():
         stars = 2*i - 1  
         print(" "*spaces+"*"*stars+" "*spaces)
     
-#User function Template for python3
-N = 5
-for i in range(1,N+1):
-    c=2*i-1
-    for j in range(N-i):
-        print(' ',end='')
-    for j in range(c):
-        print('*',end='')
-    print()
+
+def pattern_eight():
+    N = 5
+    for i in range(1,N+1):
+        c=2*i-1
+        for j in range(N-i):
+            print(' ',end='')
+        for j in range(c):
+            print('*',end='')
+        print()
 
 p = 5
 for i in range(p, 0, -1):
