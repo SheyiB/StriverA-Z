@@ -62,11 +62,12 @@ def pattern_eight():
             print('*',end='')
         print()
 
-p = 5
-for i in range(p, 0, -1):
-    stars = (2*i) - 1
-    spaces = p - i
-    print(' '*spaces + '*' * stars + ''*spaces)
+def pattern_nine():
+    p = 5
+    for i in range(p, 0, -1):
+        stars = (2*i) - 1
+        spaces = p - i
+        print(' '*spaces + '*' * stars + ''*spaces)
 
 n=5
 for i in range(1,n+1):
