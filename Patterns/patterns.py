@@ -38,11 +38,11 @@ def pattern_five():
     for i in range(5,0,-1):
         print("*" * i)
 
-print("****6*****")
-for i in range(5,0,-1):
-    for x in range(1, i+1):
-        print(x, end="")
-    print(' ')
+def pattern_six():
+    for i in range(5,0,-1):
+        for x in range(1, i+1):
+            print(x, end="")
+        print(' ')
 
 print("*****7****")
 y = 5 
