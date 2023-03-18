@@ -34,9 +34,9 @@ def pattern_four():
     for i in range(1,6,1):
         print(str(i) * i )
 
-print("****5****")
-for i in range(5,0,-1):
-    print("*" * i)
+def pattern_five():
+    for i in range(5,0,-1):
+        print("*" * i)
 
 print("****6*****")
 for i in range(5,0,-1):
