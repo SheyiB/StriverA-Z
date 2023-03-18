@@ -4,10 +4,10 @@ def pattern_one():
         print("*" * 5)
 
 
-print("****2****")
-for i in range(5):
-    k = int(i) + 1
-    print("*" * k)
+def pattern_two():
+    for i in range(5):
+        k = int(i) + 1
+        print("*" * k)
 
 print("****3.1****")
 num = []
