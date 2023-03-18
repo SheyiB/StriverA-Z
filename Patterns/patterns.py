@@ -30,9 +30,9 @@ class Solution:
             print('')
 
 
-print("****4****")
-for i in range(1,6,1):
-    print(str(i) * i )
+def pattern_four():
+    for i in range(1,6,1):
+        print(str(i) * i )
 
 print("****5****")
 for i in range(5,0,-1):
