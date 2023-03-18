@@ -1,5 +1,4 @@
 def pattern_one():
-    print("****1****")
     for i in range(5):
         print("*" * 5)
 
@@ -15,12 +14,12 @@ def pattern_three():
         num.append(str(i+1))
         print(''.join(num))
 
-print("****3.2****")
+def pattern_three_v2():
 #User function Template for python3
-for i in range(5):
-    for x in range(i+1):
-        print(x+1, end = ' ')
-    print(" ")
+    for i in range(5):
+        for x in range(i+1):
+            print(x+1, end = ' ')
+        print(" ")
 
 
 class Solution:
