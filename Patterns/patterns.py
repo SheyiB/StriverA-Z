@@ -130,22 +130,21 @@ def pattern_sixteen():
         print(chr(val+i) * mult)
     
 
-N = 4
-
-for i in range(1,N+1):
-    inc = 0
-    spaces = N-i
-    reducing_point = (2*i-1)//2 
-    print("*" * spaces, end='')
-    for x in range(2*i-1):
-        
-        print(chr(65+inc), end='')
-        if x < reducing_point:
-            inc+=1
-        else:
-            inc-=1
-    print("*" * spaces, end='')
-    print(" ")
+def pattern_seventeen():
+    N = 4
+    for i in range(1,N+1):
+        inc = 0
+        spaces = N-i
+        reducing_point = (2*i-1)//2 
+        print("*" * spaces, end='')
+        for x in range(2*i-1): 
+            print(chr(65+inc), end='')
+            if x < reducing_point:
+                inc+=1
+            else:
+                inc-=1
+        print("*" * spaces, end='')
+        print(" ")
 
 
 N = 3
