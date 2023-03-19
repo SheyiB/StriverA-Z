@@ -122,11 +122,12 @@ def pattern_fifteen():
             print(chr(val+x), end='')
         print(" ")
 
-N=5
-val = 65
-for i in range(N):
-    mult = i+1
-    print(chr(val+i) * mult)
+def pattern_sixteen():
+    N=5
+    val = 65
+    for i in range(N):
+        mult = i+1
+        print(chr(val+i) * mult)
     
 
 N = 4
