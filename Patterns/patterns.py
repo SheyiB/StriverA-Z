@@ -104,13 +104,14 @@ def pattern_thirteen():
             print(val, end=" ")
         print("")
 
-N=5
-val = 65
-for i in range(1,N+1):
-    for x in range(i):
-        current = chr(val+x)
-        print(chr(val+x), end='')
-    print(" ")
+def pattern_fourteen():
+    N=5
+    val = 65
+    for i in range(1,N+1):
+        for x in range(i):
+            current = chr(val+x)
+            print(chr(val+x), end='')
+        print(" ")
 
 N=5
 val = 65
