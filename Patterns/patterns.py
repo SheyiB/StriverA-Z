@@ -218,16 +218,8 @@ def pattern_twenty_three():
 
         print(" ")
 
-"""
 
 
-
-# print(int("-0123"))
-
-# name = "-123"
-# lint = [i for i in name]
-
-# print(lint)
 
 # class Solution:
 #     def reverse(self, x: int) -> int:
@@ -242,14 +234,14 @@ def pattern_twenty_three():
 #     rev = rev * 10 + last
 # print(rev) 
 
-N = 170
-N_len = len(str(N))
-total = 0
-da_list = [int(i) for i in str(N)]
-for i in da_list:
-    print(i, N_len, int(i) ** N_len)
-    total += (int(i) ** N_len)
-if total == N:
-    print(True, total, N)
-else:
-    print(False, total, N)
+# N = 170
+# N_len = len(str(N))
+# total = 0
+# da_list = [int(i) for i in str(N)]
+# for i in da_list:
+#     print(i, N_len, int(i) ** N_len)
+#     total += (int(i) ** N_len)
+# if total == N:
+#     print(True, total, N)
+# else:
+#     print(False, total, N)
