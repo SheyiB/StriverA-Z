@@ -153,19 +153,20 @@ def pattern_eighteen():
             print(chr(65+(N-x-1)), end=" ")
         print(" ")
 
-N=2
-y = 0
-l = N
-for i in range(N, 0, -1):
-    print("*" * l+" " * y+"*" * l )
-    y +=2
-    l -=1
-y = 1
-l = N-1
-for i in range(1,N+1):
-    print("*" * y+(" " * (l*2))+"*" * y )
-    y +=1
-    l -=1
+def pattern_nineteen():
+    N=2
+    y = 0
+    l = N
+    for i in range(N, 0, -1):
+        print("*" * l+" " * y+"*" * l )
+        y +=2
+        l -=1
+    y = 1
+    l = N-1
+    for i in range(1,N+1):
+        print("*" * y+(" " * (l*2))+"*" * y )
+        y +=1
+        l -=1
 
 N=10
 y = 1
