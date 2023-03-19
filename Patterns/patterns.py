@@ -84,17 +84,18 @@ def pattern_eleven():
         print("")
         
 def pattern_twelve():
-n = 4
-for i in range(1,n+1):
-    spaces = 2*(n -i)
-    for x in range(1,i+1):       
-        print(x,  end=' ')
-    for x in range(spaces,0,-1):       
-        print(" ",  end=' ')
-    for x in range(i,0,-1):
-        print(x,  end=' ')
-    print("")
+    n = 4
+    for i in range(1,n+1):
+        spaces = 2*(n -i)
+        for x in range(1,i+1):       
+            print(x,  end=' ')
+        for x in range(spaces,0,-1):       
+            print(" ",  end=' ')
+        for x in range(i,0,-1):
+            print(x,  end=' ')
+        print("")
 
+def
 N = 6
 val = 0
 for i in range(1,N+1):
