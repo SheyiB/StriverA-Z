@@ -146,12 +146,12 @@ def pattern_seventeen():
         print("*" * spaces, end='')
         print(" ")
 
-
-N = 3
-for i in range(0,N):
-    for x in range(i, -1, -1):
-        print(chr(65+(N-x-1)), end=" ")
-    print(" ")
+def pattern_eighteen():
+    N = 3
+    for i in range(0,N):
+        for x in range(i, -1, -1):
+            print(chr(65+(N-x-1)), end=" ")
+        print(" ")
 
 N=2
 y = 0
