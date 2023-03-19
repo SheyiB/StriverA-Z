@@ -205,17 +205,18 @@ def pattern_twenty_two():
         y +=2
         l -=1
 
-N= 4
-for i in range(2*N-1 ):
-    for x in range(2*N-1):
-        top = i
-        left = x
-        down = (2*N -2 ) - x;
-        right = (2*N-2) - i;
-        val = min(top, left, down, right)
-        print(N-val, end=" ")
+def pattern_twenty_three():
+    N= 4
+    for i in range(2*N-1 ):
+        for x in range(2*N-1):
+            top = i
+            left = x
+            down = (2*N -2 ) - x;
+            right = (2*N-2) - i;
+            val = min(top, left, down, right)
+            print(N-val, end=" ")
 
-    print(" ")
+        print(" ")
 
 """
 
