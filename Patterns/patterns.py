@@ -95,14 +95,14 @@ def pattern_twelve():
             print(x,  end=' ')
         print("")
 
-def
-N = 6
-val = 0
-for i in range(1,N+1):
-    for x in range(i):
-        val+=1
-        print(val, end=" ")
-    print("")
+def pattern_thirteen():
+    N = 6
+    val = 0
+    for i in range(1,N+1):
+        for x in range(i):
+            val+=1
+            print(val, end=" ")
+        print("")
 
 N=5
 val = 65
