@@ -76,12 +76,14 @@ def pattern_ten():
     for i in range(n-1,0,-1):
         print("*" * i)
 
-n=5
-for i in range(1,n+1):
-    for x in range(i,0,-1):
-        print(x%2, end=' ')
-    print("")
-
+def pattern_eleven():
+    n=5
+    for i in range(1,n+1):
+        for x in range(i,0,-1):
+            print(x%2, end=' ')
+        print("")
+        
+def pattern_twelve():
 n = 4
 for i in range(1,n+1):
     spaces = 2*(n -i)
