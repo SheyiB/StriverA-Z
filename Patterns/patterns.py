@@ -183,11 +183,12 @@ def pattern_twenty():
         y +=2
         l -=1
 
-N=4
-print("*" * N)
-for i in range(N-2,0, -1):
-    print("*" +  (" " * (N-2)) + "*")
-print("*" * N)
+def pattern_twenty_one():
+    N=4
+    print("*" * N)
+    for i in range(N-2,0, -1):
+        print("*" +  (" " * (N-2)) + "*")
+    print("*" * N)
 
 
 
