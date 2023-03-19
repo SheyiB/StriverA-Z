@@ -168,19 +168,20 @@ def pattern_nineteen():
         y +=1
         l -=1
 
-N=10
-y = 1
-l = N-1
-for i in range(1,N+1):
-    print("*" * y+(" " * (l*2))+"*" * y )
-    y +=1
-    l -=1
-y = 2
-l = N-1
-for i in range(N, 1, -1):
-    print("*" * l+" " * y+"*" * l )
-    y +=2
-    l -=1
+def pattern_twenty():
+    N=10
+    y = 1
+    l = N-1
+    for i in range(1,N+1):
+        print("*" * y+(" " * (l*2))+"*" * y )
+        y +=1
+        l -=1
+    y = 2
+    l = N-1
+    for i in range(N, 1, -1):
+        print("*" * l+" " * y+"*" * l )
+        y +=2
+        l -=1
 
 N=4
 print("*" * N)
