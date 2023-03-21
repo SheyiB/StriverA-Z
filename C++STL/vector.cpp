@@ -50,6 +50,11 @@ int main(){
 
     vector<int>::iterator myit = myVector.begin();
 
+
+    // Goes just one place after last element
+    vector<int>::iterator myit = myVector.end();
+
+
     cout << "My Lorde" << *(myit) << endl;
 
     return 0;
