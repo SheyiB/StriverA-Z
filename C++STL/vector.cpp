@@ -55,6 +55,13 @@ int main(){
     vector<int>::iterator myit = myVector.end();
 
 
+    // Goes just one place before first element
+    //vector<int>::iterator myiit = myVector.rend();
+
+
+    // Goes to last element
+    //vector<int>::iterator myit = myVector.rbegin();
+
     cout << "My Lorde" << *(myit) << endl;
 
     return 0;
