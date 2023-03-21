@@ -220,6 +220,7 @@ def pattern_twenty_three():
 
 
 
+pattern_one()
 
 # class Solution:
 #     def reverse(self, x: int) -> int:
